@@ -1,0 +1,535 @@
+@font-face {
+    font-family: 'Sans_Pro';
+    src: url("Source_Sans_Pro/SourceSansPro-Regular.ttf")
+}
+
+body{
+    font-family: 'Sans_Pro';
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header{
+    font-style: italic;
+    font-weight: bold;
+}
+.allHeaderMobile{
+    display: none;
+}
+.allMenuMobile{
+    display: none;
+}
+
+
+
+
+.allHeader{
+    background: #252218;
+}
+.Header{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    color: white;
+    font-size: 16px;
+}
+.Header > p {
+    margin: 0;
+}
+.headerYelEl{
+    border: 0px solid #FFCF26;
+    background-color: #FFCF26;
+    color: black;
+    padding: 0 20px;
+}
+.allMenu{
+    background: black;
+}
+.Menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    font-size: 14px;
+    color: white;
+    width: 80%;
+}
+.logoANDtext{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.map{
+    width: 100%;
+    background-image: url("page1/image_1.png");
+    padding: 60px 0;
+    background-size: cover;
+    text-align: center;
+}
+.logoB{
+    font-size: 64px;
+    margin: 0;
+    font-weight: bold;
+}
+.logoS{
+    font-size: 50px;
+    margin: 0;
+    font-weight: bold;
+}
+.BigCar{
+    justify-content: center;
+    margin-top: 40px;
+}
+.Block{
+    background: white;
+}
+.instructionName{
+    font-size: 48px;
+    text-align: center;
+    margin: 0px;
+    padding-top: 50px;
+    font-weight: bold;
+    font-style: italic;
+}
+.instruction{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    background: white;
+    padding: 40px;
+}
+.instruction > div {
+    width: 15%;
+}
+.instructionImg{
+    max-height: 140px;
+    max-width: 100%;
+    height: auto;
+}
+.instructionText{
+    font-size:18px;
+}
+
+
+
+.Block--grey {
+    position: relative;
+    background-color: #EEEEEE;
+    overflow: hidden;
+}
+.forDrivers {
+    padding: 100px 0;
+    width: 60%;
+    margin: auto;
+}
+.PieceCar {
+    position: absolute;
+    bottom: 10px;
+    right: -500px;
+    transition: all 1s linear;
+}
+.PieceCar:hover {
+    right: -200px;
+    transition: all 1s linear;
+}
+.textYellow{
+    font-size: 34px;
+    color: #FFCF26;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+}
+.textBlack {
+    font-size: 34px;
+    color: #000000;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+}
+.textMain {
+    max-width: 85%;
+    font-size: 36px;
+}
+.listElement {
+    display: flex;
+    align-items: center;
+}
+.listText {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 5px 0;
+    font-weight: bold;
+}
+.becomeDriver {
+    background: #FFCF26;
+    border-radius: 20px;
+    font-size: 36px;
+    color: #000000;
+    display: inline-block;
+    padding: 12px 32px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+
+
+.Block--white {
+    position: relative;
+    background-color: #F5F5F5;
+    overflow: hidden;
+    font-style: italic;
+    font-weight: bold;
+}
+.TotalCarBlock{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding: 40px 0 80px 0;
+}
+.carBlock{
+  border: 3px solid #EBFF00;
+  background-color: white;
+  text-align: center;
+  width: 21%;
+}
+.car{
+    height: auto;
+    max-height: 70px;
+    max-width: 100%;
+    padding-top: 30px;
+}
+.aboutCar{
+    font-size: 18px;
+    padding: 10px 30px;
+    margin: 0;
+}
+.price{
+    font-size: 28px;
+    margin: 0;
+    padding: 0 10px;
+}
+.priceMore{
+    font-size: 20px;
+    padding: 0 10px 10px 10px;
+}
+
+
+
+.Block--whitewhite {
+    position: relative;
+    background-color: #F8F9FB;
+    overflow: hidden;
+    padding: 70px 0 30px 0;
+}
+.comment{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+}
+.arrow{
+    padding: 0 50px ;
+}
+.manANDtext{
+    display: flex;
+    align-items: flex-start;
+}
+.man{
+    margin-top: 10px;
+}
+.commentAll{
+    padding: 0 30px;
+}
+.commentText{
+    font-size: 24px;
+    margin: 10px 0 ;
+}
+.commentAutor{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0 ;
+}
+.dots{
+    align-items: center;
+    display: flex;
+    margin: auto;
+}
+
+
+
+.Block--black {
+    position: relative;
+    background-color: black;
+    overflow: hidden;
+    color:white;
+    font-weight: bold;
+}
+.Contacts{
+    font-size: 24px;
+    text-align: center;
+    padding-top: 10px;
+}
+.allCont{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    font-size: 18px;
+    font-style: italic;
+    padding-bottom: 40px;
+}
+.adress{
+    line-height: 28px;
+    margin: 0;
+}
+.contacts {
+    line-height: 28px;
+    margin: 0;
+}
+.icon{
+    padding-right: 50px;
+    margin-top:20px;
+}
+
+.icon:last-child {
+    padding-right: 0px;
+}
+.icon2{
+    padding-right: 50px;
+    margin-top:20px;
+}
+
+.icon2:last-child {
+    padding-right: 0px;
+}
+
+
+
+
+
+
+
+
+.element{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    display: flex;
+    margin: auto;
+    font-style: italic;
+    font-weight: bold;
+    padding: 20px;
+    align-items: center;
+}
+.pic{
+    width: 50%;
+}
+.list{
+    width: 50%;
+}
+.title{
+    font-size: 36px;
+}
+.textList{
+    font-size: 24px;
+    margin: 5px 0;
+    padding: 0 5px;
+}
+
+.elementRev{
+    flex-direction: row-reverse;
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin: auto;
+    font-style: italic;
+    font-weight: bold;
+    padding: 30px;
+    align-items: center;
+}
+
+
+
+.Block--greygrey {
+    position: relative;
+    background-color: #F5F8FA;
+    overflow: hidden;
+    font-weight: bold;
+}
+.TotalServiceBlock{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 70%;
+    margin: auto;
+    padding: 80px 0 ;
+}
+.serviceBlock{
+  border: 3px solid #FFCF26;
+  background-color: white;
+  text-align: center;
+  width: 22%;
+  padding: 30px;
+}
+.el{
+    padding: 5px 0;
+
+}
+.serviceText{
+    font-size: 24px;
+    margin: 0;
+    padding: 0 30px;
+}
+
+
+
+
+.serviceBlock--drivers{
+    width: 22%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+.serviceText--drivers{
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+
+.Map{
+    display: flex;
+    margin-left: auto;
+    justify-content: flex-end;
+    width: 85%;
+}
+.City{
+    font-size: 36px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 50%;
+    font-style: italic;
+    font-weight: bold;
+    padding: 10px 0 40px 0;
+}
+
+
+
+
+.FakeTaxi{
+    display: flex;
+    align-items: flex-start ;
+    justify-content: space-between;
+    width: 85%;
+    margin: 50px auto;
+}
+.application{
+    margin-top: -50px;
+}
+.phone{
+    display: flex;
+    align-items: center;
+}
+.mobileTitle{
+    font-size: 24px;
+    margin: 0;
+    padding: 6px 0;
+}
+.phoneNumber{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    margin: 0 10px -10px 10px;
+    padding: 10px 0;
+}
+.mobile{
+    flex-direction: column;
+    margin: 0 auto;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1186px){
+    .carBlock{
+      width: 24%;
+    }
+    .aboutCar{
+        font-size: 16px;
+    }
+    .price{
+        font-size: 26px;
+        padding: 0 5px;
+    }
+    .priceMore{
+        font-size: 18px;
+        padding: 0 10px 5px 10px;
+    }
+
+.allCont{
+    width: 80%;
+}
+.adress{
+    line-height: 20px;
+}
+.contacts {
+    line-height: 20px;
+}
+.icon{
+    padding-right: 10px;
+    margin-top:10px;
+}
+
+
+
+
+    .element{
+        width: 80%;
+    }
+    .elementRev{
+        width: 80%;
+    }
+
+
+
+    .serviceBlock--drivers{
+        width: 18%;
+      }
+    .serviceText--drivers{
+        font-size: 20px;
+    }
+
+    .phoneNumber{
+        font-size: 24px;
+        margin: 0 10px -10px 10px;
+        padding: 10px 0;
+    }
+    .mobileTitle{
+        font-size: 20px;
+        margin: 0;
+        padding: 6px 0;
+    }
+
+}

@@ -1,0 +1,155 @@
+@media only screen and (max-width: 768px){
+    .Header{
+        width: 90%;
+        font-size: 18px;
+    } 
+    .map {
+        width: 100%;
+        background-image: url("фото_страница1/image 1.png");
+        padding: 0;
+        background-size: cover;
+        }
+    .BigCar{
+            width: 90%;
+    }
+
+    .instructionName{
+        padding-top: 20px;
+    }
+    
+    
+    
+    .forDrivers {
+        width: 85%;
+        padding: 50px 0;
+    }
+    .textBlack{
+        font-size: 30px;
+    }
+    .textYellow{
+        font-size: 30px;
+    }
+    .textMain {
+        max-width: 80%;
+        font-size: 26px;
+    }
+    .listText {
+        font-size: 16px;
+    }
+    .becomeDriver {
+        font-size: 30px;
+        padding: 12px 32px;
+        margin-top: 30px;
+    }
+    .PieceCar {
+        bottom: 40px;
+        right: -100px;
+        width: 60%;
+    }
+    
+     
+    
+    .TotalCarBlock{
+        width: 60%;
+        padding: 0 0 80px 0;
+    }
+    .carBlock{
+      width: 100%;
+      margin-top: 30px;
+    }
+    .car{
+        max-height: 110px;
+    }
+    .aboutCar{
+        font-size: 20px;
+    }
+    .price{
+    font-size: 30px;
+    }
+    .priceMore{
+    font-size: 24px;
+    }
+    
+    
+    .comment{
+        width: 95%;
+    }
+    .arrow{
+        padding: 0 15px ;
+    }
+    .commentText{
+        font-size: 20px;
+    }
+    .commentAutor{
+        font-size: 20px;
+
+    }
+   
+   
+    .Contacts{
+        font-size: 20px;
+    }
+    .allCont{
+        width: 90%;
+    }
+
+
+
+
+
+.element{
+    width: 90%;
+    }
+.elementRev{
+    width: 90%;
+    }
+.title{
+    font-size: 26px;
+}
+.textList{
+    font-size: 20px;
+}
+.pic{
+    width: 40%;
+}
+.list{
+    width: 60%;
+}
+.TotalServiceBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    margin: auto;
+    padding: 60px 0 ;
+}
+.serviceBlock{
+    text-align: center;
+    width: 100%;
+    padding: 30px;
+    margin-top: 20px;
+  }
+.serviceText{
+    font-size: 30px;
+    padding: 0 10px;
+}
+.City{
+    width: 90%;
+}
+.mobileTitle{
+    font-size: 28px;
+    padding: 0;
+    margin: auto;
+    line-height: 36px;
+}
+.phoneNumber{
+    font-size: 30px;
+    padding: 0;
+    margin: auto;
+    line-height: 40px;
+}
+.FakeTaxi{
+    width: 50%;
+    align-items: center;
+}
+}

@@ -1,14 +1,14 @@
 @font-face {
-    font-family: Sans_Pro;
-    src: url("fonts/SourceSansPro-Regular.ttf") format("ttf");
-
+    font-family: 'Source_Sans_Pro';
+    src: url("Source_Sans_Pro/SourceSansPro-Regular.ttf")
 }
+
 body{
-    font-family: Sans_Pro;
+    font-family: 'Source_Sans_Pro';
 }
 
 a {
-    color: #ffff;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -69,7 +69,7 @@ header{
 
 .map{
     width: 100%;
-    background-image: url("page1/image 1.png");
+    background-image: url("фото_страница1/image 1.png");
     padding: 60px 0;
     background-size: cover;
     text-align: center;
@@ -135,11 +135,11 @@ header{
     position: absolute;
     bottom: 10px;
     right: -500px;
-    transition: all 1s linear;
+    transition: all 1.5s linear;
 }
 .PieceCar:hover {
-    right: -200px;
-    transition: all 1s linear;
+    right: 0px;
+    transition: all 1.5s linear;
 }
 .textYellow{
     font-size: 34px;
@@ -197,10 +197,10 @@ header{
     padding: 40px 0 80px 0;
 }
 .carBlock{
-  border: 3px solid #EBFF00;
-  background-color: white;
-  text-align: center;
-  width: 21%;
+    border: 3px solid #EBFF00;
+    background-color: white;
+    text-align: center;
+    width: 21%;
 }
 .car{
     height: auto;
@@ -376,11 +376,11 @@ header{
     padding: 80px 0 ;
 }
 .serviceBlock{
-  border: 3px solid #FFCF26;
-  background-color: white;
-  text-align: center;
-  width: 22%;
-  padding: 30px;
+    border: 3px solid #FFCF26;
+    background-color: white;
+    text-align: center;
+    width: 22%;
+    padding: 30px;
 }
 .el{
     padding: 5px 0;
@@ -401,7 +401,7 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
+}
 .serviceText--drivers{
     font-size: 24px;
     margin: 0;
@@ -474,7 +474,7 @@ header{
 
 @media only screen and (max-width: 1186px){
     .carBlock{
-      width: 24%;
+        width: 24%;
     }
     .aboutCar{
         font-size: 16px;
@@ -488,19 +488,19 @@ header{
         padding: 0 10px 5px 10px;
     }
 
-.allCont{
-    width: 80%;
-}
-.adress{
-    line-height: 20px;
-}
-.contacts {
-    line-height: 20px;
-}
-.icon{
-    padding-right: 10px;
-    margin-top:10px;
-}
+    .allCont{
+        width: 80%;
+    }
+    .adress{
+        line-height: 20px;
+    }
+    .contacts {
+        line-height: 20px;
+    }
+    .icon{
+        padding-right: 10px;
+        margin-top:10px;
+    }
 
 
 
@@ -516,7 +516,7 @@ header{
 
     .serviceBlock--drivers{
         width: 18%;
-      }
+    }
     .serviceText--drivers{
         font-size: 20px;
     }

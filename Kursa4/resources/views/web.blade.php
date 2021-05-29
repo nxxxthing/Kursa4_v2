@@ -16,7 +16,7 @@
   <div class = "Header">
   <p>Треба поїздка?</p>
   <div class = "headerYelEl"><p>Замовити машину</p></div>
-  <p> <a href="tel:+88005553535"> 8-800-555-35-35</p>
+      <p> <a href="tel:+88005553535"> 8-800-555-35-35 </a> </p>
   </div>
   </div>
   <div class = "allMenu">
@@ -26,9 +26,9 @@
   <a href = "web">FakeTaxi</a>
   </div>
   <div class = "menu"><p><a href="clients">Клієнтам</a></p></div>
-  <div class = "menu"><p><a href="drivers.blade.php">Водіям</a></p></div>
-  <div class = "menu"><p><a href="cities.blade.php">Міста</a></p></div>
-  <div class = "menu"><p><a href="contacts.blade.php">Контакти</a></p></div>
+  <div class = "menu"><p><a href="drivers">Водіям</a></p></div>
+  <div class = "menu"><p><a href="cities">Міста</a></p></div>
+  <div class = "menu"><p><a href="contacts">Контакти</a></p></div>
   </div>
   </div>
 
@@ -44,7 +44,7 @@
     <div class = "Menu">
     <div class = "logoANDtext">
     <img class ="logo" src = "page1/disability_1.png">
-    <a href = "web.blade.php">FakeTaxi</a>
+    <a href = "web">FakeTaxi</a>
     </div>
     <img class = "burger" src = "page1/image_14_1.png">
     </div>
@@ -110,8 +110,10 @@
       <p class = "listText">Стабільні замовлення</p>
     </div>
       <img class = "PieceCar" src ="page1/image_4.png">
-      <div class="becomeDriver">Стати водієм
+      <a href="https://forms.gle/ZCdK3SJ3uNb2mk8Z8" style="color:#000000" target="_blank">
+          <div class="becomeDriver">  Стати водієм
     </div>
+      </a>
   </div>
 </div>
 
@@ -165,14 +167,14 @@
   <div class = "Block--black">
   <p class = "Contacts">Контакти</p>
   <div class = "allCont">
-  <p class = "adress">Адреса <br> вул. Політехнічна, 12 <br><br><br> Телефон <br> <a href="tel:+88005553535"> 8-800-555-35-35</p>
+      <p class = "adress">Адреса <br> вул. Політехнічна, 12 <br><br><br> Телефон <br> <a href="tel:+88005553535"> 8-800-555-35-35 </a> </p>
   <div class = "contact">
   <p class = "contacts">Email <br> fakeTaxi@gmail.com<br><br>Ми в соціальних мережах</p>
-  <div class = "icon">
-  <img class = "icon" src ="page1/check-mark_7.svg">
-  <img class = "icon" src ="page1/check-mark_8.svg">
-  <img class = "icon" src ="page1/check-mark_9.svg">
-  <img class = "icon" src ="page1/check-mark_10.svg">
+  <div>
+  <a href="https://www.facebook.com/groups/ElonMusk/" target="_blank" class="icon"> <img src ="page1/check-mark_7.svg"> </a>
+  <a href="https://www.instagram.com/elonmusk/" target="_blank" class="icon"> <img src ="page1/check-mark_8.svg"> </a>
+  <a href="viber://chat?number=%2B380987300911" class="icon"> <img src ="page1/check-mark_9.svg"> </a>
+  <a href="https://t.me/nxxxthing" target="_blank" class="icon"> <img src ="page1/check-mark_10.svg"> </a>
   </div>
   </div>
   </div>

@@ -20,7 +20,20 @@ Route::get('/', function () {
 Route::get('/web', function () {
     return view('web');
 });
+
 Route::get('/clients', function () {
     return view('clients');
+});
+
+Route::get('/drivers', function () {
+    return view('drivers');
+});
+
+Route::get('/cities', function () {
+    return view('cities');
+});
+
+Route::get('/contacts', function () {
+    return view('contacts');
 });
 

@@ -17,7 +17,7 @@
   <div class = "allHeader">
   <div class = "Header">
   <p>Треба поїздка?</p>
-  <div class = "headerYelEl"><p>Замовити машину</p></div>
+      <div class = "headerYelEl"> <a href="#" id = "button" class = "button" style="color:#000000"> <p> Замовити машину</p> </a> </div>
       <p> <a href="tel:+88005553535"> 8-800-555-35-35 </a> </p>
   </div>
   </div>
@@ -53,7 +53,26 @@
     </div>
   </header>
 
-
+  <div class="bg-modal">
+      <div class="modal-content">
+          <div class="close">+</div>
+          <form action="">
+              <p>Заповніть дані для замовлення</p>
+              <input type="text" placeholder="Ім'я">
+              <input type="text" placeholder="Номер">
+              <input type="text" placeholder="Звідки">
+              <input type="text" placeholder="Куди">
+              <div class="check">
+                  <input type="radio" name="option" value="a3">System X<Br>
+                  <input type="radio" name="option" value="a4">Linux<Br>
+                  <input type="radio" name="option" value="a5">X3-DOS
+              </div>
+              <div class="smth">
+                  <button class="sub">Замовити</button>
+              </div>
+          </form>
+      </div>
+  </div>
 
   <div class = "map" >
   <p class = "logoB">Транспорт</p>
@@ -181,6 +200,7 @@
   </div>
   </div>
   </div>
+  <script src="{{ asset('script.js') }}"></script>
 
 </body>
 </html>

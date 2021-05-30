@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use \App\Http\Controllers\Controller;
-
+use \App\Models\clients;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -37,6 +37,15 @@ Route::get('/cities', function () {
 Route::get('/contacts', function () {
     return view('contacts');
 });
+
+Route::get('/admin', function () {
+    return view('admin');
+});
+Route::get('/admin/clients', [Controller::class, 'admin_clients']);
+
+Route::get('/admin/orders', [Controller::class, 'admin_orders']);
+
+Route::get('/admin/drivers', [Controller::class, 'admin_drivers']);
 
 Route::post('/web', [Controller::class, 'add_user']);
 

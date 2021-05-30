@@ -62,9 +62,10 @@
         margin-top: 20px;
     }
     .PieceCar {
-        bottom: 120px;
-        right: -150px;
-        width: 90%;
+        display: none;
+        /*bottom: 120px;*/
+        /*right: -150px;*/
+        /*width: 90%;*/
     }
 
 

@@ -41,14 +41,12 @@
     <div class="allHeaderMobile">
         <div class="Header">
             <p>Треба поїздка?</p>
-            <<a href="#" id="button" class="headerYelEl" style="color:#000000">
+            <a href="#" id="button1" class="headerYelEl" style="color:#000000">
                 <div class="headerYelEl"><p> Замовити
                         машину</p></div>
             </a>
-            </a>
+            <p><a href="tel:+88005553535"> 8-800-555-35-35 </a></p>
         </div>
-        <p><a href="tel:+88005553535"> 8-800-555-35-35 </a></p>
-    </div>
     </div>
     <div class="allMenuMobile">
         <div class="Menu">
@@ -68,16 +66,16 @@
     } ?>">
         <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
         <?php if ($flag == 1) {
-            echo "Замовлення прийнято!";
+            echo "Замовлення прийнято! Очікуйте повідомлення з інформацією про машину.";
         } else {
-            echo "Помилкаа! :(";
+            echo "Помилка! Перевірте правильність вводу даних.";
         } ?>
     </div>
 @endif
 <div class="bg-modal">
     <div class="modal-content">
         <div class="close">+</div>
-        <form action="web#" method="POST">
+        <form action="web" method="POST">
             @csrf
             <p>Заповніть дані для замовлення</p>
             <input type="text" placeholder="Ім'я" name="name">

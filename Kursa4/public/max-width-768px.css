@@ -2,10 +2,10 @@
     .Header{
         width: 90%;
         font-size: 18px;
-    } 
+    }
     .map {
         width: 100%;
-        background-image: url("фото_страница1/image 1.png");
+        background-image: url("page1/image_1.png");
         padding: 0;
         background-size: cover;
         }
@@ -16,9 +16,9 @@
     .instructionName{
         padding-top: 20px;
     }
-    
-    
-    
+
+
+
     .forDrivers {
         width: 85%;
         padding: 50px 0;
@@ -46,9 +46,9 @@
         right: -100px;
         width: 60%;
     }
-    
-     
-    
+
+
+
     .TotalCarBlock{
         width: 60%;
         padding: 0 0 80px 0;
@@ -69,8 +69,8 @@
     .priceMore{
     font-size: 24px;
     }
-    
-    
+
+
     .comment{
         width: 95%;
     }
@@ -84,8 +84,8 @@
         font-size: 20px;
 
     }
-   
-   
+
+
     .Contacts{
         font-size: 20px;
     }

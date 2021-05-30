@@ -5,10 +5,10 @@
     .allMenu{
         display: none;
     }
-    
+
     .map {
         width: 100%;
-        background-image: url("фото_страница1/image 1.png");
+        background-image: url("page1/image_1.png");
         padding: 0;
         background-size: cover;
         }
@@ -36,9 +36,9 @@
     .instructionText{
         font-size:18px;
     }
-    
-    
-    
+
+
+
     .forDrivers {
         width: 95%;
     }
@@ -66,16 +66,16 @@
         right: -150px;
         width: 90%;
     }
-    
-     
-    
-     
-    
+
+
+
+
+
     .TotalCarBlock{
         width: 70%;
     }
 
-    
+
     .comment{
         width: 95%;
     }
@@ -91,8 +91,8 @@
     .commentAutor{
         font-size: 20px;
     }
-   
-   
+
+
     .Contacts{
         font-size: 20px;
     }
@@ -113,18 +113,18 @@
     .allCont{
         width: 95%;
     }
-  
-    
-    
-    
-    
-    
-    
-   
-    
+
+
+
+
+
+
+
+
+
     .allHeaderMobile{
         display: block;
-        background: #252218; 
+        background: #252218;
     }
     .Header{
         width: 95%;

@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use \App\Http\Controllers\Controller;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,11 +15,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('web');
+    return view('web', ['flag' => 0]);
 });
 
 Route::get('/web', function () {
-    return view('web');
+    return view('web', ['flag' => 0]);
 });
 
 Route::get('/clients', function () {
@@ -36,4 +37,6 @@ Route::get('/cities', function () {
 Route::get('/contacts', function () {
     return view('contacts');
 });
+
+Route::post('/web', [Controller::class, 'add_user']);
 

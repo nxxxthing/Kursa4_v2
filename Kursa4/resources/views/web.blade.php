@@ -57,7 +57,20 @@
                 <img class="logo" src="page1/disability_1.png">
                 <a href="web">FakeTaxi</a>
             </div>
-            <img class="burger" src="page1/image_14_1.png">
+            <div>
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn"
+                            style="background: url(page1/image_14_1.png) no-repeat;">
+                    </button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="web">Головна</a>
+                        <a href="clients">Клієнтам</a>
+                        <a href="drivers">Водіям</a>
+                        <a href="cities">Міста</a>
+                        <a href="contacts">Контакти</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </header>
@@ -196,30 +209,34 @@
 
         </div>
         <div class="slidername-info">
-            <div class="sliderinfo">Користуюся їх додатком, дуже зручно і просто, є зв'язок з водієм і геолокація, диспетчеру не треба
-                пояснювати з якого боку магазину стою) Ціна хороша за послуги, все подобається, буду користуватися далі.</div>
+            <div class="sliderinfo">Користуюся їх таксі, дуже зручно і просто, є зв'язок з водієм і геолокація,
+                диспетчеру не треба
+                пояснювати з якого боку магазину стою) Ціна хороша за послуги, все подобається, буду користуватися далі.
+            </div>
             <div class="slidername">Яхачуп Іва</div>
         </div>
     </div>
     <div class="sliderone">
         <div class="slider__img">
-            <img src="page1/image_11.png" alt="" class="sliderimg-pic">
+            <img src="page1/Natali.jpg" alt="" class="sliderimg-pic">
 
         </div>
         <div class="slidername-info">
-            <div class="sliderinfo">Користуюся їх додатком, дуже зручно і просто, є зв'язок з водієм і геолокація, диспетчеру не треба
-                пояснювати з якого боку магазину стою) Ціна хороша за послуги, все подобається, буду користуватися далі.</div>
+            <div class="sliderinfo">Їздили якось по гриби, назад їхали цим таксі. Чудовий запах в машинах,
+                вантажне таксі взагалі супер. Рекомендую всім!
+            </div>
             <div class="slidername">Наталія Грибник</div>
         </div>
     </div>
     <div class="sliderone">
         <div class="sliderimg">
-            <img src="page1/image_11.png" alt="" class="sliderimg-pic">
+            <img src="page1/nasos.png" alt="" class="sliderimg-pic">
         </div>
         <div class="slidername-info">
-            <div class="sliderinfo">Користуюся їх додатком, дуже зручно і просто, є зв'язок з водієм і геолокація, диспетчеру не треба
-                пояснювати з якого боку магазину стою) Ціна хороша за послуги, все подобається, буду користуватися далі.</div>
-            <div class="slidername">Наталія Грибник</div>
+            <div class="sliderinfo">Користуюся цим таксі, все без нарікань. Ніколи не підводили, а лише підвозили.
+                Тепер користуюся лише вашим сервісом!
+            </div>
+            <div class="slidername">Ясос Біба</div>
         </div>
     </div>
 </div>

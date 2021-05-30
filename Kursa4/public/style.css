@@ -2,6 +2,47 @@
     font-family: 'Sans_Pro';
     src: url("Source_Sans_Pro/SourceSansPro-Regular.ttf")
 }
+/* mobile dropbox */
+.dropbtn {
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown-content {
+    left: auto !important;
+    right: 0 !important;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #ddd}
+
+
+.show {display:block;}
+
+/*  SLIDER  */
 .slider{
     background-color: white;
     padding-bottom: 55px;

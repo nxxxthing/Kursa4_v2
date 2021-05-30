@@ -26,8 +26,10 @@ class Controller extends BaseController
         $car_type = $request->option;
         $f = 0;
         $dict = ['v1' => "економ", 'v2' => "комфорт", 'v3' => "вантажне"];
-        if ($number[0] == '0') {
+        if ($number != null && $number[0] == '0') {
             $number = "38" . $number;
+        } elseif ($number != null && $number[0] == '0') {
+            $number = "3" . $number;
         }
         if (!preg_match("/^[0-9]{12}$/", $number)) $f = 2;
         elseif ($name != null && $number != null && $from != null && $where != null && $car_type != null) {
@@ -50,17 +52,20 @@ class Controller extends BaseController
         return view('web', ['flag' => $f]);
     }
 
-    public function admin_clients() {
+    public function admin_clients()
+    {
         $clients = clients::all();
         return view('adminClients', ['clients' => $clients]);
     }
 
-    public function admin_orders() {
+    public function admin_orders()
+    {
         $orders = orders::all();
         return view('adminOrders', ['orders' => $orders]);
     }
 
-    public function admin_drivers() {
+    public function admin_drivers()
+    {
 //        $drivers = drivers::all();
         $drivers = DB::table('drivers')->where('id', '<>', 1)->get();
         $cars = [];

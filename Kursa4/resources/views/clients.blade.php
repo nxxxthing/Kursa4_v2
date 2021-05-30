@@ -52,7 +52,20 @@
                 <img class="logo" src="page1/disability_1.png">
                 <a href="web">FakeTaxi</a>
             </div>
-            <img class="burger" src="page1/image_14_1.png">
+            <div>
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn"
+                            style="background: url(page1/image_14_1.png) no-repeat;">
+                    </button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="web">Головна</a>
+                        <a href="clients">Клієнтам</a>
+                        <a href="drivers">Водіям</a>
+                        <a href="cities">Міста</a>
+                        <a href="contacts">Контакти</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </header>

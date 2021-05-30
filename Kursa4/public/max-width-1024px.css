@@ -1,4 +1,8 @@
 @media only screen and (max-width: 1024px) {
+    .slick-prev:before, .slick-next:before {
+        display: none;
+        color: black !important;
+    }
     .Header {
         width: 70%;
         font-size: 18px;

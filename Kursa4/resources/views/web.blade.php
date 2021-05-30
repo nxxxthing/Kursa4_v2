@@ -9,6 +9,9 @@
     <link href="{{ asset('max-width-1024px.css') }}" rel="stylesheet">
     <link href="{{ asset('max-width-768px.css') }}" rel="stylesheet">
     <link href="{{ asset('max-width-576px.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('slick/slick.css')  }}">
+    <link rel="stylesheet" href="{{ asset('slick/slick-theme.css') }}">
+
 </head>
 <body class="page">
 
@@ -183,23 +186,43 @@
     </div>
 </div>
 
+<script src="{{ asset('jquery-3.6.0.js')}}"></script>
+<script src="{{ asset('slick/slick.min.js') }}"></script>
 
-<div class="Block--whitewhite">
-    <div class="comment">
-        <img class="arrow" src="page1/image_25.png">
-        <div class="manANDtext"><img class="man" src="page1/image_11.png">
-            <div class="commentAll"><p class="commentText">
-                    Користуюся їх додатком, дуже зручно і просто, є зв'язок з водієм і геолокація, диспетчеру не треба
-                    пояснювати з якого боку магазину стою) Ціна хороша за послуги, все подобається, буду користуватися
-                    далі.</p>
-                <p class="commentAutor">Яхачуп Іва</p>
-            </div>
+<div class="slider">
+    <div class="sliderone">
+        <div class="sliderimg">
+            <img src="page1/image_11.png" alt="" class="sliderimg-pic">
+
         </div>
-        <img class="arrow" src="page1/image_24.png">
+        <div class="slidername-info">
+            <div class="sliderinfo">Користуюся їх додатком, дуже зручно і просто, є зв'язок з водієм і геолокація, диспетчеру не треба
+                пояснювати з якого боку магазину стою) Ціна хороша за послуги, все подобається, буду користуватися далі.</div>
+            <div class="slidername">Яхачуп Іва</div>
+        </div>
     </div>
-    <img class="dots" src="page1/image_26.png">
-</div>
+    <div class="sliderone">
+        <div class="slider__img">
+            <img src="page1/image_11.png" alt="" class="sliderimg-pic">
 
+        </div>
+        <div class="slidername-info">
+            <div class="sliderinfo">Користуюся їх додатком, дуже зручно і просто, є зв'язок з водієм і геолокація, диспетчеру не треба
+                пояснювати з якого боку магазину стою) Ціна хороша за послуги, все подобається, буду користуватися далі.</div>
+            <div class="slidername">Наталія Грибник</div>
+        </div>
+    </div>
+    <div class="sliderone">
+        <div class="sliderimg">
+            <img src="page1/image_11.png" alt="" class="sliderimg-pic">
+        </div>
+        <div class="slidername-info">
+            <div class="sliderinfo">Користуюся їх додатком, дуже зручно і просто, є зв'язок з водієм і геолокація, диспетчеру не треба
+                пояснювати з якого боку магазину стою) Ціна хороша за послуги, все подобається, буду користуватися далі.</div>
+            <div class="slidername">Наталія Грибник</div>
+        </div>
+    </div>
+</div>
 
 <div class="Block--black">
     <p class="Contacts">Контакти</p>
@@ -220,6 +243,5 @@
     </div>
 </div>
 <script src="{{ asset('script.js') }}"></script>
-
 </body>
 </html>
